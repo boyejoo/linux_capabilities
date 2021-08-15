@@ -14,6 +14,7 @@ Simple app to display capability sets attached to a process in human readable fo
 2. In suitable directory clone repository
 
         git clone https://github.com/boyejoo/linux_capabilities.git
+        cd linux_capabilities
 
 3. Install and activate venv
 
