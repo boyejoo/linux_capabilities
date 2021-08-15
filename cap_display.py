@@ -65,7 +65,7 @@ def checkerr(err,message):
 def cli(pid,):
     ''' Capabilities Display Script '''
     spid = str(pid)
-    err,name_ppid = subprocess.getstatusoutput(f'grep -E "^Name|^Tgid|^P{{0,1}}Pid" /proc/{spid}/status')
+    err,name_ppid = subprocess.getstatusoutput(f'grep -E "^Name|^Tgid|^P{{0,1}}Pid|^Uid|^Gid" /proc/{spid}/status')
     checkerr(err, name_ppid)
     click.echo("{}\n".format(name_ppid.strip()))
 
