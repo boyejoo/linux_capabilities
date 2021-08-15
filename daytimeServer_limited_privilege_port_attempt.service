@@ -1,0 +1,9 @@
+Description=Cutting Edge DayTime Announcement Service
+
+[Service]
+Type=simple
+ExecStart=/home/boye/go/bin/DayTimeServer 108
+CapabilityBoundingSet=
+
+[Install]
+WantedBy=multi-user.target
