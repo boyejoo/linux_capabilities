@@ -2,7 +2,7 @@
 Scripts and codes for Linux Capabilities study
 
 ## cap_display.py
-Simple app to display capability sets attached to a process in human readable form by scraping */proc/<pid>/status* and resolves hexadecimal representation of capabilities by scaping capabiltity bit numbers in */usr/include/linux/capability.h*. 
+Simple app to display capability sets attached to a process in human readable form by scraping */proc/pid/status* and resolves hexadecimal representation of capabilities by scaping capabiltity bit numbers in */usr/include/linux/capability.h*. 
 
 ### Installation
 #### Install virtual environment
